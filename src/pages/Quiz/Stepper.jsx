@@ -163,7 +163,7 @@ const VerticalLinearStepper = ({ addUserInput }) => {
           </StepContent>
         </Step>
         <Step>
-          <StepLabel>How many people do you drive?</StepLabel>
+          <StepLabel>How many people do you need to be able to drive?</StepLabel>
           <StepContent>
             <FormControl component="fieldset" className={classes.formControl}>
               <RadioGroup
