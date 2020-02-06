@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -22,6 +21,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.MuiFormControl-root {
+  margin: 10px !important;
 }
 
 .App-link {
