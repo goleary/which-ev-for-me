@@ -170,7 +170,9 @@ const VerticalLinearStepper = ({ addUserInput }) => {
                 aria-label="passengers"
                 name="passengers"
                 value={numPassengers}
-                onChange={event => setNumPassengers(event.target.value)}
+                onChange={event =>
+                  setNumPassengers(parseInt(event.target.value))
+                }
               >
                 <FormControlLabel value={1} control={<Radio />} label="1" />
                 <FormControlLabel value={2} control={<Radio />} label="2" />
@@ -206,6 +208,6 @@ const VerticalLinearStepper = ({ addUserInput }) => {
   );
 };
 
-export default connect(state => {}, {
+export default connect(state => ({}), {
   addUserInput
 })(VerticalLinearStepper);
