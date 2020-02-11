@@ -1,85 +1,85 @@
-brand,model,availableNow,range,batteryKwh,seats,awd,rapidCharge,segment,zeroTo100,topSpeed,efficiency,fastchargeSpeed,priceGbp
-Volkswagen ,ID.3 Standard Range,false,275 km,48,5,false,true,C,8.0 sec,160 km/h,16.4 kWh,260 km/h,22000
-Tesla ,Model 3 Long Range Dual Motor,true,460 km,75,5,true,true,D,4.6 sec,233 km/h,15.8 kWh,960 km/h,47990
-Tesla ,Cybertruck Tri Motor,true,750 km,200,6,true,true,M,3.0 sec,210 km/h,26.7 kWh,710 km/h,68000
-MG ,ZS EV,true,235 km,44.5,5,false,true,J,8.2 sec,140 km/h,18.9 kWh,270 km/h,21995
-Tesla ,Model 3 Standard Range,false,265 km,50,5,false,true,D,5.9 sec,210 km/h,15.1 kWh,500 km/h,34000
-Mercedes ,EQC 400 4MATIC,true,360 km,85,5,true,true,J,5.1 sec,180 km/h,22.2 kWh,430 km/h,62140
-Peugeot ,e-208 ,true,295 km,50,5,false,true,B,8.1 sec,150 km/h,16.1 kWh,440 km/h,25050
-Volkswagen ,e-Golf ,true,190 km,35.8,5,false,true,C,9.6 sec,150 km/h,16.8 kWh,220 km/h,27575
-Volvo ,XC40 P8 AWD Recharge,false,375 km,78,5,true,true,J,4.9 sec,180 km/h,20 kWh,470 km/h,50000
-Skoda ,Vision IV ,true,450 km,83,4,true,true,J,5.9 sec,180 km/h,18.4 kWh,570 km/h,30000
-BMW ,iX3 ,true,350 km,80,5,false,true,J,6.0 sec,200 km/h,21.1 kWh,540 km/h,56000
-Tesla ,Model 3 Standard Range Plus,true,315 km,50,5,false,true,D,5.6 sec,225 km/h,15.1 kWh,630 km/h,39490
-Polestar ,2 ,false,425 km,78,5,true,true,D,4.7 sec,250 km/h,17.1 kWh,660 km/h,46400
-Audi ,e-tron GT ,true,425 km,93.4,4,true,true,E,3.5 sec,240 km/h,19.7 kWh,850 km/h,100000
-Opel ,Corsa-e ,false,290 km,50,5,false,true,B,8.1 sec,150 km/h,16.4 kWh,430 km/h,26490
-Porsche ,Taycan Turbo S,true,365 km,93.4,4,true,true,F,2.8 sec,260 km/h,22.9 kWh,730 km/h,135326
-Nissan ,Leaf ,true,220 km,40,5,false,true,C,7.9 sec,144 km/h,16.4 kWh,230 km/h,26345
-Mercedes ,EQA ,true,350 km,60,5,true,true,C,5.0 sec,200 km/h,17.1 kWh,440 km/h,31000
-Honda ,e ,false,200 km,35.5,4,false,true,B,9.5 sec,145 km/h,16 kWh,270 km/h,26160
-Volkswagen ,ID.3 Long Range,false,450 km,82,4,false,true,C,5.5 sec,180 km/h,17.1 kWh,550 km/h,37000
-Volkswagen ,ID.3 Mid Range,false,345 km,62,5,false,true,C,7.0 sec,160 km/h,16.8 kWh,480 km/h,31000
-Tesla ,Model 3 Long Range Performance,true,445 km,75,5,true,true,D,3.4 sec,261 km/h,16.3 kWh,930 km/h,52990
-Audi ,Q4 e-tron ,true,425 km,83,5,true,true,J,6.3 sec,180 km/h,19.5 kWh,540 km/h,47000
-Mazda ,MX-30 ,false,180 km,35.5,5,false,true,J,9.0 sec,150 km/h,17.8 kWh,240 km/h,27000
-Hyundai ,IONIQ Electric,true,260 km,38.3,5,false,true,C,9.7 sec,165 km/h,14.7 kWh,210 km/h,29450
-SEAT ,Mii Electric ,true,200 km,36.8,4,false,true,A,12.3 sec,130 km/h,16.2 kWh,170 km/h,19300
-Hyundai ,Kona Electric 64 kWh,true,400 km,67.1,5,false,true,J,7.9 sec,167 km/h,16 kWh,380 km/h,35100
-Volkswagen ,e-Up! ,true,200 km,36.8,4,false,true,A,11.9 sec,130 km/h,16.2 kWh,170 km/h,19695
-BMW ,i3 120 Ah,true,235 km,42.2,4,false,true,B,7.3 sec,150 km/h,16.1 kWh,270 km/h,31680
-Nissan ,Leaf e+,true,330 km,62,5,false,true,C,7.3 sec,157 km/h,17 kWh,390 km/h,35895
-Skoda ,CITIGOe iV ,true,200 km,36.8,4,false,true,A,12.3 sec,130 km/h,16.2 kWh,170 km/h,16955
-Peugeot ,e-2008 SUV ,false,275 km,50,5,false,true,J,8.5 sec,150 km/h,17.3 kWh,410 km/h,28150
-BMW ,i4 ,true,500 km,80,5,false,true,D,4.0 sec,200 km/h,16 kWh,720 km/h,55000
-Tesla ,Roadster ,true,970 km,200,4,true,true,S,2.1 sec,410 km/h,20.6 kWh,920 km/h,185500
-Audi ,e-tron Sportback 55 quattro,false,385 km,95,5,true,true,J,5.7 sec,200 km/h,22.5 kWh,620 km/h,70000
-Audi ,e-tron 50 quattro,true,285 km,71,5,true,true,J,6.8 sec,190 km/h,22.7 kWh,460 km/h,56400
-SEAT ,el-Born ,true,340 km,62,4,false,true,C,7.0 sec,180 km/h,17.1 kWh,470 km/h,28000
-Renault ,Zoe ZE50 R110,true,320 km,55,5,false,true,B,11.4 sec,135 km/h,16.3 kWh,240 km/h,25670
-Jaguar ,I-Pace ,true,370 km,90,5,true,true,J,4.8 sec,200 km/h,22.9 kWh,350 km/h,60995
-Mini ,Cooper SE ,true,185 km,32.6,4,false,true,B,7.3 sec,150 km/h,15.6 kWh,270 km/h,24400
-Tesla ,Model S Long Range,true,525 km,100,5,true,true,E,3.8 sec,250 km/h,18.1 kWh,580 km/h,78690
-Lucid ,Air ,true,350 km,75,5,false,true,E,5.0 sec,225 km/h,21.4 kWh,520 km/h,61500
-Lightyear ,One ,false,575 km,60,5,true,true,E,10.0 sec,150 km/h,10.4 kWh,540 km/h,
-Kia ,e-Soul 64 kWh,true,370 km,67.1,5,false,true,J,7.9 sec,167 km/h,17.3 kWh,350 km/h,33795
-Opel ,Ampera-e ,true,345 km,60,5,false,true,M,7.3 sec,150 km/h,16.8 kWh,220 km/h,
-Tesla ,Model X Long Range,true,460 km,100,7,true,true,J,4.6 sec,250 km/h,20.7 kWh,500 km/h,83690
-Renault ,Zoe ZE50 R135,true,315 km,55,5,false,true,B,9.5 sec,140 km/h,16.5 kWh,230 km/h,27620
-DS ,3 Crossback E-Tense,true,280 km,50,5,false,true,J,8.7 sec,150 km/h,17 kWh,420 km/h,32350
-Audi ,e-tron 55 quattro,true,370 km,95,5,true,true,J,5.7 sec,200 km/h,23.4 kWh,590 km/h,68060
-Tesla ,Model S Performance,true,510 km,100,5,true,true,E,2.6 sec,261 km/h,18.6 kWh,560 km/h,93290
-Lexus ,UX 300e,false,270 km,54.3,5,false,true,J,7.5 sec,160 km/h,19.3 kWh,190 km/h,40000
-Ford ,Mustang Mach-E ER RWD,false,450 km,98.8,5,false,true,J,7.0 sec,180 km/h,20 kWh,430 km/h,46690
-Sono ,Sion ,false,225 km,35,5,false,true,B,9.0 sec,140 km/h,15.6 kWh,270 km/h,
-Nissan ,e-NV200 Evalia ,true,190 km,40,7,false,true,M,14.0 sec,123 km/h,20 kWh,190 km/h,29255
-Hyundai ,Kona Electric 39 kWh,true,250 km,42,5,false,true,J,9.9 sec,155 km/h,15.7 kWh,210 km/h,
-Porsche ,Taycan 4S,true,355 km,79.2,4,true,true,F,4.0 sec,250 km/h,20 kWh,710 km/h,79867
-Porsche ,Taycan Cross Turismo ,true,400 km,96,4,true,true,F,3.5 sec,250 km/h,22.5 kWh,730 km/h,120000
-Ford ,Mustang Mach-E SR RWD,false,360 km,75.7,5,false,true,J,6.6 sec,180 km/h,19.4 kWh,380 km/h,36770
-Renault ,Zoe ZE40 R110,true,255 km,44.1,5,false,true,B,11.4 sec,135 km/h,16.1 kWh,230 km/h,
-Tesla ,Model Y Long Range Dual Motor,false,425 km,75,7,true,true,J,5.1 sec,217 km/h,17.1 kWh,930 km/h,50000
-Byton ,M-Byte 95 kWh,false,400 km,105,5,true,true,J,5.5 sec,190 km/h,23.8 kWh,520 km/h,60000
-Renault ,Kangoo Maxi ZE 33,true,165 km,33,5,false,false,M,22.4 sec,130 km/h,18.8 kWh,-,25478
-Citroen ,C-Zero ,true,90 km,16,4,false,true,A,15.9 sec,130 km/h,16.1 kWh,180 km/h,17020
-Tesla ,Cybertruck Dual Motor,true,460 km,120,6,true,true,M,5.0 sec,190 km/h,26.1 kWh,710 km/h,48000
-Peugeot ,iOn ,true,90 km,16,4,false,true,A,15.9 sec,130 km/h,16.1 kWh,180 km/h,16995
-Tesla ,Cybertruck Single Motor,true,390 km,100,6,false,true,M,7.0 sec,180 km/h,25.6 kWh,740 km/h,39000
-Byton ,M-Byte 72 kWh,false,310 km,80,5,false,true,J,7.5 sec,190 km/h,23.2 kWh,370 km/h,50000
-Honda ,e Advance,false,200 km,35.5,4,false,true,B,8.3 sec,145 km/h,16 kWh,270 km/h,28660
-Ford ,Mustang Mach-E ER AWD,false,430 km,98.8,5,true,true,J,6.0 sec,180 km/h,20.9 kWh,410 km/h,53450
-BMW ,i3s 120 Ah,true,230 km,42.2,4,false,true,B,6.9 sec,160 km/h,16.5 kWh,260 km/h,34170
-Tesla ,Model Y Long Range Performance,false,410 km,75,7,true,true,J,3.7 sec,241 km/h,17.7 kWh,900 km/h,56000
-Porsche ,Taycan 4S Plus,true,410 km,93.4,4,true,true,F,4.0 sec,250 km/h,20.4 kWh,820 km/h,84480
-Porsche ,Taycan Turbo,true,375 km,93.4,4,true,true,F,3.2 sec,260 km/h,22.3 kWh,750 km/h,112358
-Peugeot ,Partner Tepee Electric,true,110 km,22.5,5,false,true,M,19.5 sec,110 km/h,18.6 kWh,150 km/h,
-Tesla ,Model X Performance,true,445 km,100,7,true,true,J,2.9 sec,250 km/h,21.3 kWh,490 km/h,97890
-Smart ,EQ fortwo coupe,true,105 km,17.6,2,false,false,A,11.6 sec,130 km/h,15.9 kWh,-,16850
-Ford ,Mustang Mach-E SR AWD,false,340 km,75.7,5,true,true,J,6.0 sec,180 km/h,20.6 kWh,360 km/h,43070
-Audi ,e-tron Sportback 50 quattro,false,290 km,71,5,true,true,J,6.8 sec,190 km/h,22.3 kWh,420 km/h,60000
-Kia ,e-Soul 39 kWh,true,230 km,42,5,false,true,J,9.6 sec,156 km/h,17 kWh,220 km/h,
-Smart ,EQ forfour ,true,90 km,17.6,4,false,false,A,12.7 sec,130 km/h,18.6 kWh,-,17285
-Kia ,e-Niro 64 kWh,true,375 km,67.1,5,false,true,J,7.8 sec,167 km/h,17.1 kWh,350 km/h,34495
-Smart ,EQ fortwo cabrio,true,95 km,17.6,2,false,false,A,11.9 sec,130 km/h,17.6 kWh,-,20420
-Kia ,e-Niro 39 kWh,true,240 km,42,5,false,true,J,9.8 sec,155 km/h,16.3 kWh,230 km/h,
-Aiways ,U5 ,false,340 km,65,5,false,true,J,9.0 sec,150 km/h,19.1 kWh,370 km/h,25000
+brand,model,availableNow,range,rangeKm,rangeMi,batteryKwh,seats,awd,rapidCharge,segment,zeroTo100,topSpeed,efficiency,fastchargeSpeed,priceGbp,priceUsd
+Volkswagen ,ID.3 Standard Range,FALSE,275 km,275 ,170.8770773,48,5,FALSE,TRUE,C,8.0 sec,160 km/h,16.4 kWh,260 km/h,22000,28412.12
+Tesla ,Model 3 Long Range Dual Motor,TRUE,460 km,460 ,285.8307474,75,5,TRUE,TRUE,D,4.6 sec,233 km/h,15.8 kWh,960 km/h,47990,61977.1654
+Tesla ,Cybertruck Tri Motor,TRUE,750 km,750 ,466.0283925,200,6,TRUE,TRUE,M,3.0 sec,210 km/h,26.7 kWh,710 km/h,68000,87819.28
+MG ,ZS EV,TRUE,235 km,235 ,146.0222297,44.5,5,FALSE,TRUE,J,8.2 sec,140 km/h,18.9 kWh,270 km/h,21995,28405.6627
+Tesla ,Model 3 Standard Range,FALSE,265 km,265 ,164.6633654,50,5,FALSE,TRUE,D,5.9 sec,210 km/h,15.1 kWh,500 km/h,34000,43909.64
+Mercedes ,EQC 400 4MATIC,TRUE,360 km,360 ,223.6936284,85,5,TRUE,TRUE,J,5.1 sec,180 km/h,22.2 kWh,430 km/h,62140,80251.3244
+Peugeot ,e-208 ,TRUE,295 km,295 ,183.3045011,50,5,FALSE,TRUE,B,8.1 sec,150 km/h,16.1 kWh,440 km/h,25050,32351.073
+Volkswagen ,e-Golf ,TRUE,190 km,190 ,118.0605261,35.8,5,FALSE,TRUE,C,9.6 sec,150 km/h,16.8 kWh,220 km/h,27575,35612.0095
+Volvo ,XC40 P8 AWD Recharge,FALSE,375 km,375 ,233.0141963,78,5,TRUE,TRUE,J,4.9 sec,180 km/h,20 kWh,470 km/h,50000,64573
+Skoda ,Vision IV ,TRUE,450 km,450 ,279.6170355,83,4,TRUE,TRUE,J,5.9 sec,180 km/h,18.4 kWh,570 km/h,30000,38743.8
+BMW ,iX3 ,TRUE,350 km,350 ,217.4799165,80,5,FALSE,TRUE,J,6.0 sec,200 km/h,21.1 kWh,540 km/h,56000,72321.76
+Tesla ,Model 3 Standard Range Plus,TRUE,315 km,315 ,195.7319249,50,5,FALSE,TRUE,D,5.6 sec,225 km/h,15.1 kWh,630 km/h,39490,50999.7554
+Polestar ,2,FALSE,425 km,425 ,264.0827558,78,5,TRUE,TRUE,D,4.7 sec,250 km/h,17.1 kWh,660 km/h,46400,59923.744
+Audi ,e-tron GT ,TRUE,425 km,425 ,264.0827558,93.4,4,TRUE,TRUE,E,3.5 sec,240 km/h,19.7 kWh,850 km/h,100000,129146
+Opel ,Corsa-e ,FALSE,290 km,290 ,180.1976451,50,5,FALSE,TRUE,B,8.1 sec,150 km/h,16.4 kWh,430 km/h,26490,34210.7754
+Porsche ,Taycan Turbo S,TRUE,365 km,365 ,226.8004844,93.4,4,TRUE,TRUE,F,2.8 sec,260 km/h,22.9 kWh,730 km/h,135326,174768.116
+Nissan ,Leaf ,TRUE,220 km,220 ,136.7016618,40,5,FALSE,TRUE,C,7.9 sec,144 km/h,16.4 kWh,230 km/h,26345,34023.5137
+Mercedes ,EQA ,TRUE,350 km,350 ,217.4799165,60,5,TRUE,TRUE,C,5.0 sec,200 km/h,17.1 kWh,440 km/h,31000,40035.26
+Honda ,e ,FALSE,200 km,200 ,124.274238,35.5,4,FALSE,TRUE,B,9.5 sec,145 km/h,16 kWh,270 km/h,26160,33784.5936
+Volkswagen ,ID.3 Long Range,FALSE,450 km,450 ,279.6170355,82,4,FALSE,TRUE,C,5.5 sec,180 km/h,17.1 kWh,550 km/h,37000,47784.02
+Volkswagen ,ID.3 Mid Range,FALSE,345 km,345 ,214.3730606,62,5,FALSE,TRUE,C,7.0 sec,160 km/h,16.8 kWh,480 km/h,31000,40035.26
+Tesla ,Model 3 Long Range Performance,TRUE,445 km,445 ,276.5101796,75,5,TRUE,TRUE,D,3.4 sec,261 km/h,16.3 kWh,930 km/h,52990,68434.4654
+Audi ,Q4 e-tron ,TRUE,425 km,425 ,264.0827558,83,5,TRUE,TRUE,J,6.3 sec,180 km/h,19.5 kWh,540 km/h,47000,60698.62
+Mazda ,MX-30 ,FALSE,180 km,180 ,111.8468142,35.5,5,FALSE,TRUE,J,9.0 sec,150 km/h,17.8 kWh,240 km/h,27000,34869.42
+Hyundai ,IONIQ Electric,TRUE,260 km,260 ,161.5565094,38.3,5,FALSE,TRUE,C,9.7 sec,165 km/h,14.7 kWh,210 km/h,29450,38033.497
+SEAT ,Mii Electric ,TRUE,200 km,200 ,124.274238,36.8,4,FALSE,TRUE,A,12.3 sec,130 km/h,16.2 kWh,170 km/h,19300,24925.178
+Hyundai ,Kona Electric 64 kWh,TRUE,400 km,400 ,248.548476,67.1,5,FALSE,TRUE,J,7.9 sec,167 km/h,16 kWh,380 km/h,35100,45330.246
+Volkswagen ,e-Up! ,TRUE,200 km,200 ,124.274238,36.8,4,FALSE,TRUE,A,11.9 sec,130 km/h,16.2 kWh,170 km/h,19695,25435.3047
+BMW ,i3 120 Ah,TRUE,235 km,235 ,146.0222297,42.2,4,FALSE,TRUE,B,7.3 sec,150 km/h,16.1 kWh,270 km/h,31680,40913.4528
+Nissan ,Leaf e+,TRUE,330 km,330 ,205.0524927,62,5,FALSE,TRUE,C,7.3 sec,157 km/h,17 kWh,390 km/h,35895,46356.9567
+Skoda ,CITIGOe iV ,TRUE,200 km,200 ,124.274238,36.8,4,FALSE,TRUE,A,12.3 sec,130 km/h,16.2 kWh,170 km/h,16955,21896.7043
+Peugeot ,e-2008 SUV ,FALSE,275 km,275 ,170.8770773,50,5,FALSE,TRUE,J,8.5 sec,150 km/h,17.3 kWh,410 km/h,28150,36354.599
+BMW ,i4 ,TRUE,500 km,500 ,310.685595,80,5,FALSE,TRUE,D,4.0 sec,200 km/h,16 kWh,720 km/h,55000,71030.3
+Tesla ,Roadster ,TRUE,970 km,970 ,602.7300543,200,4,TRUE,TRUE,S,2.1 sec,410 km/h,20.6 kWh,920 km/h,185500,239565.83
+Audi ,e-tron Sportback 55 quattro,FALSE,385 km,385 ,239.2279082,95,5,TRUE,TRUE,J,5.7 sec,200 km/h,22.5 kWh,620 km/h,70000,90402.2
+Audi ,e-tron 50 quattro,TRUE,285 km,285 ,177.0907892,71,5,TRUE,TRUE,J,6.8 sec,190 km/h,22.7 kWh,460 km/h,56400,72838.344
+SEAT ,el-Born ,TRUE,340 km,340 ,211.2662046,62,4,FALSE,TRUE,C,7.0 sec,180 km/h,17.1 kWh,470 km/h,28000,36160.88
+Renault ,Zoe ZE50 R110,TRUE,320 km,320 ,198.8387808,55,5,FALSE,TRUE,B,11.4 sec,135 km/h,16.3 kWh,240 km/h,25670,33151.7782
+Jaguar ,I-Pace ,TRUE,370 km,370 ,229.9073403,90,5,TRUE,TRUE,J,4.8 sec,200 km/h,22.9 kWh,350 km/h,60995,78772.6027
+Mini ,Cooper SE ,TRUE,185 km,185 ,114.9536702,32.6,4,FALSE,TRUE,B,7.3 sec,150 km/h,15.6 kWh,270 km/h,24400,31511.624
+Tesla ,Model S Long Range,TRUE,525 km,525 ,326.2198748,100,5,TRUE,TRUE,E,3.8 sec,250 km/h,18.1 kWh,580 km/h,78690,101624.9874
+Lucid ,Air ,TRUE,350 km,350 ,217.4799165,75,5,FALSE,TRUE,E,5.0 sec,225 km/h,21.4 kWh,520 km/h,61500,79424.79
+Lightyear ,One ,FALSE,575 km,575 ,357.2884343,60,5,TRUE,TRUE,E,10.0 sec,150 km/h,10.4 kWh,540 km/h,,
+Kia ,e-Soul 64 kWh,TRUE,370 km,370 ,229.9073403,67.1,5,FALSE,TRUE,J,7.9 sec,167 km/h,17.3 kWh,350 km/h,33795,43644.8907
+Opel ,Ampera-e ,TRUE,345 km,345 ,214.3730606,60,5,FALSE,TRUE,M,7.3 sec,150 km/h,16.8 kWh,220 km/h,,
+Tesla ,Model X Long Range,TRUE,460 km,460 ,285.8307474,100,7,TRUE,TRUE,J,4.6 sec,250 km/h,20.7 kWh,500 km/h,83690,108082.2874
+Renault ,Zoe ZE50 R135,TRUE,315 km,315 ,195.7319249,55,5,FALSE,TRUE,B,9.5 sec,140 km/h,16.5 kWh,230 km/h,27620,35670.1252
+DS ,3 Crossback E-Tense,TRUE,280 km,280 ,173.9839332,50,5,FALSE,TRUE,J,8.7 sec,150 km/h,17 kWh,420 km/h,32350,41778.731
+Audi ,e-tron 55 quattro,TRUE,370 km,370 ,229.9073403,95,5,TRUE,TRUE,J,5.7 sec,200 km/h,23.4 kWh,590 km/h,68060,87896.7676
+Tesla ,Model S Performance,TRUE,510 km,510 ,316.8993069,100,5,TRUE,TRUE,E,2.6 sec,261 km/h,18.6 kWh,560 km/h,93290,120480.3034
+Lexus ,UX 300e,FALSE,270 km,270 ,167.7702213,54.3,5,FALSE,TRUE,J,7.5 sec,160 km/h,19.3 kWh,190 km/h,40000,51658.4
+Ford ,Mustang Mach-E ER RWD,FALSE,450 km,450 ,279.6170355,98.8,5,FALSE,TRUE,J,7.0 sec,180 km/h,20 kWh,430 km/h,46690,60298.2674
+Sono ,Sion ,FALSE,225 km,225 ,139.8085178,35,5,FALSE,TRUE,B,9.0 sec,140 km/h,15.6 kWh,270 km/h,,
+Nissan ,e-NV200 Evalia ,TRUE,190 km,190 ,118.0605261,40,7,FALSE,TRUE,M,14.0 sec,123 km/h,20 kWh,190 km/h,29255,37781.6623
+Hyundai ,Kona Electric 39 kWh,TRUE,250 km,250 ,155.3427975,42,5,FALSE,TRUE,J,9.9 sec,155 km/h,15.7 kWh,210 km/h,,
+Porsche ,Taycan 4S,TRUE,355 km,355 ,220.5867725,79.2,4,TRUE,TRUE,F,4.0 sec,250 km/h,20 kWh,710 km/h,79867,103145.0358
+Porsche ,Taycan Cross Turismo ,TRUE,400 km,400 ,248.548476,96,4,TRUE,TRUE,F,3.5 sec,250 km/h,22.5 kWh,730 km/h,120000,154975.2
+Ford ,Mustang Mach-E SR RWD,FALSE,360 km,360 ,223.6936284,75.7,5,FALSE,TRUE,J,6.6 sec,180 km/h,19.4 kWh,380 km/h,36770,47486.9842
+Renault ,Zoe ZE40 R110,TRUE,255 km,255 ,158.4496535,44.1,5,FALSE,TRUE,B,11.4 sec,135 km/h,16.1 kWh,230 km/h,,
+Tesla ,Model Y Long Range Dual Motor,FALSE,425 km,425 ,264.0827558,75,7,TRUE,TRUE,J,5.1 sec,217 km/h,17.1 kWh,930 km/h,50000,64573
+Byton ,M-Byte 95 kWh,FALSE,400 km,400 ,248.548476,105,5,TRUE,TRUE,J,5.5 sec,190 km/h,23.8 kWh,520 km/h,60000,77487.6
+Renault ,Kangoo Maxi ZE 33,TRUE,165 km,165 ,102.5262464,33,5,FALSE,FALSE,M,22.4 sec,130 km/h,18.8 kWh,-,25478,32903.81788
+Citroen ,C-Zero ,TRUE,90 km,90 ,55.9234071,16,4,FALSE,TRUE,A,15.9 sec,130 km/h,16.1 kWh,180 km/h,17020,21980.6492
+Tesla ,Cybertruck Dual Motor,TRUE,460 km,460 ,285.8307474,120,6,TRUE,TRUE,M,5.0 sec,190 km/h,26.1 kWh,710 km/h,48000,61990.08
+Peugeot ,iOn ,TRUE,90 km,90 ,55.9234071,16,4,FALSE,TRUE,A,15.9 sec,130 km/h,16.1 kWh,180 km/h,16995,21948.3627
+Tesla ,Cybertruck Single Motor,TRUE,390 km,390 ,242.3347641,100,6,FALSE,TRUE,M,7.0 sec,180 km/h,25.6 kWh,740 km/h,39000,50366.94
+Byton ,M-Byte 72 kWh,FALSE,310 km,310 ,192.6250689,80,5,FALSE,TRUE,J,7.5 sec,190 km/h,23.2 kWh,370 km/h,50000,64573
+Honda ,e Advance,FALSE,200 km,200 ,124.274238,35.5,4,FALSE,TRUE,B,8.3 sec,145 km/h,16 kWh,270 km/h,28660,37013.2436
+Ford ,Mustang Mach-E ER AWD,FALSE,430 km,430 ,267.1896117,98.8,5,TRUE,TRUE,J,6.0 sec,180 km/h,20.9 kWh,410 km/h,53450,69028.537
+BMW ,i3s 120 Ah,TRUE,230 km,230 ,142.9153737,42.2,4,FALSE,TRUE,B,6.9 sec,160 km/h,16.5 kWh,260 km/h,34170,44129.1882
+Tesla ,Model Y Long Range Performance,FALSE,410 km,410 ,254.7621879,75,7,TRUE,TRUE,J,3.7 sec,241 km/h,17.7 kWh,900 km/h,56000,72321.76
+Porsche ,Taycan 4S Plus,TRUE,410 km,410 ,254.7621879,93.4,4,TRUE,TRUE,F,4.0 sec,250 km/h,20.4 kWh,820 km/h,84480,109102.5408
+Porsche ,Taycan Turbo,TRUE,375 km,375 ,233.0141963,93.4,4,TRUE,TRUE,F,3.2 sec,260 km/h,22.3 kWh,750 km/h,112358,145105.8627
+Peugeot ,Partner Tepee Electric,TRUE,110 km,110 ,68.3508309,22.5,5,FALSE,TRUE,M,19.5 sec,110 km/h,18.6 kWh,150 km/h,,
+Tesla ,Model X Performance,TRUE,445 km,445 ,276.5101796,100,7,TRUE,TRUE,J,2.9 sec,250 km/h,21.3 kWh,490 km/h,97890,126421.0194
+Smart ,EQ fortwo coupe,TRUE,105 km,105 ,65.24397495,17.6,2,FALSE,FALSE,A,11.6 sec,130 km/h,15.9 kWh,-,16850,21761.101
+Ford ,Mustang Mach-E SR AWD,FALSE,340 km,340 ,211.2662046,75.7,5,TRUE,TRUE,J,6.0 sec,180 km/h,20.6 kWh,360 km/h,43070,55623.1822
+Audi ,e-tron Sportback 50 quattro,FALSE,290 km,290 ,180.1976451,71,5,TRUE,TRUE,J,6.8 sec,190 km/h,22.3 kWh,420 km/h,60000,77487.6
+Kia ,e-Soul 39 kWh,TRUE,230 km,230 ,142.9153737,42,5,FALSE,TRUE,J,9.6 sec,156 km/h,17 kWh,220 km/h,,
+Smart ,EQ forfour ,TRUE,90 km,90 ,55.9234071,17.6,4,FALSE,FALSE,A,12.7 sec,130 km/h,18.6 kWh,-,17285,22322.8861
+Kia ,e-Niro 64 kWh,TRUE,375 km,375 ,233.0141963,67.1,5,FALSE,TRUE,J,7.8 sec,167 km/h,17.1 kWh,350 km/h,34495,44548.9127
+Smart ,EQ fortwo cabrio,TRUE,95 km,95 ,59.03026305,17.6,2,FALSE,FALSE,A,11.9 sec,130 km/h,17.6 kWh,-,20420,26371.6132
+Kia ,e-Niro 39 kWh,TRUE,240 km,240 ,149.1290856,42,5,FALSE,TRUE,J,9.8 sec,155 km/h,16.3 kWh,230 km/h,,
+Aiways ,U5 ,FALSE,340 km,340 ,211.2662046,65,5,FALSE,TRUE,J,9.0 sec,150 km/h,19.1 kWh,370 km/h,25000,32286.5
