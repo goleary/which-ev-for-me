@@ -1,0 +1,327 @@
+[debug] [2020-02-11T05:38:17.237Z] ----------------------------------------------------------------------
+[debug] [2020-02-11T05:38:17.240Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\olear\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions
+[debug] [2020-02-11T05:38:17.240Z] CLI Version:   7.12.1
+[debug] [2020-02-11T05:38:17.241Z] Platform:      win32
+[debug] [2020-02-11T05:38:17.241Z] Node Version:  v10.16.3
+[debug] [2020-02-11T05:38:17.242Z] Time:          Mon Feb 10 2020 21:38:17 GMT-0800 (Pacific Standard Time)
+[debug] [2020-02-11T05:38:17.242Z] ----------------------------------------------------------------------
+[debug] [2020-02-11T05:38:17.242Z] 
+[debug] [2020-02-11T05:38:17.271Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-11T05:38:17.272Z] > authorizing via signed-in user
+[debug] [2020-02-11T05:38:17.273Z] [iam] checking project which-ev-for-me for permissions ["firebase.projects.get"]
+[debug] [2020-02-11T05:38:17.275Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/which-ev-for-me:testIamPermissions  
+
+[debug] [2020-02-11T05:38:17.396Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-11T05:38:17.398Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/which-ev-for-me  
+ 
+[debug] [2020-02-11T05:38:17.573Z] <<< HTTP RESPONSE 200
+[info] +  functions: Using node@10 from host.
+[info] +  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\olear\github\ev-for-me\functions" for Cloud Functions...
+[debug] [2020-02-11T05:38:19.125Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-11T05:38:19.125Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-11T05:38:19.126Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-11T05:38:19.126Z] [worker-~diagnostic~-48bbc0b9-2d41-47cb-9f77-f02338c0b789]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\34648
+[debug] [2020-02-11T05:38:19.126Z] [worker-~diagnostic~-48bbc0b9-2d41-47cb-9f77-f02338c0b789]: BUSY
+[info] >  Debugger listening on ws://127.0.0.1:65284/a948f9c7-0fac-4dd1-92e9-f5305340363b
+[info] >  For help, see: https://nodejs.org/en/docs/inspector
+[info] >  Debugger attached.
+[debug] [2020-02-11T05:38:20.240Z] [runtime-status] [34648] Functions runtime initialized. {"cwd":"C:\\Users\\olear\\github\\ev-for-me\\functions","node_version":"10.16.3"}
+[debug] [2020-02-11T05:38:20.243Z] [runtime-status] [34648] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-11T05:38:20.251Z] [runtime-status] [34648] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\olear\\github\\ev-for-me\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-11T05:38:20.254Z] [runtime-status] [34648] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\olear\\github\\ev-for-me\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-11T05:38:20.256Z] [runtime-status] [34648] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\olear\\github\\ev-for-me\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[info] +  functions[getMatchingVehicles]: http function initialized (http://localhost:5000/which-ev-for-me/us-central1/getMatchingVehicles).
+[debug] [2020-02-11T05:38:22.353Z] [worker-~diagnostic~-48bbc0b9-2d41-47cb-9f77-f02338c0b789]: IDLE
+[debug] [2020-02-11T05:38:57.736Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-11T05:38:57.736Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-11T05:38:57.736Z] Accepted request OPTIONS /which-ev-for-me/us-central1/getMatchingVehicles --> getMatchingVehicles
+[debug] [2020-02-11T05:38:57.745Z] [worker-pool] addWorker(getMatchingVehicles)
+[debug] [2020-02-11T05:38:57.745Z] [worker-pool] Adding worker with key getMatchingVehicles, total=1
+[debug] [2020-02-11T05:38:57.745Z] [worker-pool] submitWork(triggerId=getMatchingVehicles)
+[debug] [2020-02-11T05:38:57.745Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:38:57.745Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: BUSY
+[info] >  Debugger listening on ws://127.0.0.1:65344/b7ec51df-9235-4ddc-8ab5-9dce0c9c73a2
+[info] >  For help, see: https://nodejs.org/en/docs/inspector
+[info] >  Debugger attached.
+[debug] [2020-02-11T05:38:58.920Z] [runtime-status] [17252] Functions runtime initialized. {"cwd":"C:\\Users\\olear\\github\\ev-for-me\\functions","node_version":"10.16.3"}
+[debug] [2020-02-11T05:38:58.923Z] [runtime-status] [17252] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-11T05:38:58.931Z] [runtime-status] [17252] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\olear\\github\\ev-for-me\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-11T05:38:58.935Z] [runtime-status] [17252] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\olear\\github\\ev-for-me\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-11T05:38:58.939Z] [runtime-status] [17252] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\olear\\github\\ev-for-me\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-11T05:39:00.276Z] [runtime-status] [17252] Trigger "getMatchingVehicles" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getMatchingVehicles"
+[debug] [2020-02-11T05:39:00.277Z] [runtime-status] [17252] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getMatchingVehicles","entryPoint":"getMatchingVehicles"}
+[debug] [2020-02-11T05:39:00.277Z] [runtime-status] [17252] Running getMatchingVehicles in mode HTTPS
+[debug] [2020-02-11T05:39:00.283Z] [runtime-status] [17252] Attempting to listen to socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:39:00.294Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-11T05:39:00.302Z] [runtime-status] [17252] Ephemeral server handling OPTIONS request
+[debug] [2020-02-11T05:39:00.307Z] [runtime-status] [17252] Ephemeral server survived.
+[debug] [2020-02-11T05:39:00.308Z] [work-queue] {"queueLength":1,"workRunningCount":1}
+[debug] [2020-02-11T05:39:00.309Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-02-11T05:39:00.309Z] Accepted request POST /which-ev-for-me/us-central1/getMatchingVehicles --> getMatchingVehicles
+[debug] [2020-02-11T05:39:00.316Z] [worker-pool] addWorker(getMatchingVehicles)
+[debug] [2020-02-11T05:39:00.316Z] [worker-pool] Adding worker with key getMatchingVehicles, total=2
+[debug] [2020-02-11T05:39:00.316Z] [worker-pool] submitWork(triggerId=getMatchingVehicles)
+[debug] [2020-02-11T05:39:00.316Z] [worker-getMatchingVehicles-a11d6d11-fc4a-4b06-82fb-eed2ccd0f91b]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\3360
+[debug] [2020-02-11T05:39:00.316Z] [worker-getMatchingVehicles-a11d6d11-fc4a-4b06-82fb-eed2ccd0f91b]: BUSY
+[info] i  functions: Finished "getMatchingVehicles" in ~1s
+[debug] [2020-02-11T05:39:00.318Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: IDLE
+[debug] [2020-02-11T05:39:00.318Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[info] >  Debugger listening on ws://127.0.0.1:65350/82c9d0cd-4c56-4249-b9e3-b142baf5181e
+[info] >  For help, see: https://nodejs.org/en/docs/inspector
+[info] >  Debugger attached.
+[debug] [2020-02-11T05:39:01.417Z] [runtime-status] [3360] Functions runtime initialized. {"cwd":"C:\\Users\\olear\\github\\ev-for-me\\functions","node_version":"10.16.3"}
+[debug] [2020-02-11T05:39:01.420Z] [runtime-status] [3360] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-11T05:39:01.426Z] [runtime-status] [3360] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.9.2","resolution":"C:\\Users\\olear\\github\\ev-for-me\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-11T05:39:01.429Z] [runtime-status] [3360] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\olear\\github\\ev-for-me\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-11T05:39:01.431Z] [runtime-status] [3360] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\olear\\github\\ev-for-me\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-11T05:39:02.942Z] [runtime-status] [3360] Trigger "getMatchingVehicles" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getMatchingVehicles"
+[debug] [2020-02-11T05:39:02.943Z] [runtime-status] [3360] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getMatchingVehicles","entryPoint":"getMatchingVehicles"}
+[debug] [2020-02-11T05:39:02.943Z] [runtime-status] [3360] Running getMatchingVehicles in mode HTTPS
+[debug] [2020-02-11T05:39:02.950Z] [runtime-status] [3360] Attempting to listen to socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\3360
+[debug] [2020-02-11T05:39:02.960Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-11T05:39:03.032Z] [runtime-status] [3360] Ephemeral server handling POST request
+[debug] [2020-02-11T05:39:03.046Z] [runtime-status] [3360] Ephemeral server survived.
+[info] i  functions: Finished "getMatchingVehicles" in ~2s
+[debug] [2020-02-11T05:39:10.223Z] [worker-getMatchingVehicles-a11d6d11-fc4a-4b06-82fb-eed2ccd0f91b]: IDLE
+[debug] [2020-02-11T05:39:10.223Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-11T05:40:38.427Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-11T05:40:38.428Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-11T05:40:38.428Z] Accepted request OPTIONS /which-ev-for-me/us-central1/getMatchingVehicles --> getMatchingVehicles
+[debug] [2020-02-11T05:40:38.428Z] [worker-pool] submitWork(triggerId=getMatchingVehicles)
+[debug] [2020-02-11T05:40:38.428Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:40:38.429Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: BUSY
+[debug] [2020-02-11T05:40:38.429Z] [runtime-status] [17252] Trigger "getMatchingVehicles" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getMatchingVehicles"
+[debug] [2020-02-11T05:40:38.430Z] [runtime-status] [17252] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getMatchingVehicles","entryPoint":"getMatchingVehicles"}
+[debug] [2020-02-11T05:40:38.430Z] [runtime-status] [17252] Running getMatchingVehicles in mode HTTPS
+[debug] [2020-02-11T05:40:38.430Z] [runtime-status] [17252] Attempting to listen to socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:40:38.433Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-11T05:40:38.437Z] [runtime-status] [17252] Ephemeral server handling OPTIONS request
+[debug] [2020-02-11T05:40:38.438Z] [runtime-status] [17252] Ephemeral server survived.
+[info] i  functions: Finished "getMatchingVehicles" in ~1s
+[debug] [2020-02-11T05:40:38.438Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: IDLE
+[debug] [2020-02-11T05:40:38.439Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-11T05:40:38.440Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-11T05:40:38.441Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-11T05:40:38.441Z] Accepted request POST /which-ev-for-me/us-central1/getMatchingVehicles --> getMatchingVehicles
+[debug] [2020-02-11T05:40:38.441Z] [worker-pool] submitWork(triggerId=getMatchingVehicles)
+[debug] [2020-02-11T05:40:38.441Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:40:38.441Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: BUSY
+[debug] [2020-02-11T05:40:38.448Z] [runtime-status] [17252] Trigger "getMatchingVehicles" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getMatchingVehicles"
+[debug] [2020-02-11T05:40:38.449Z] [runtime-status] [17252] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getMatchingVehicles","entryPoint":"getMatchingVehicles"}
+[debug] [2020-02-11T05:40:38.449Z] [runtime-status] [17252] Running getMatchingVehicles in mode HTTPS
+[debug] [2020-02-11T05:40:38.450Z] [runtime-status] [17252] Attempting to listen to socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:40:38.453Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-11T05:40:38.482Z] [runtime-status] [17252] Ephemeral server handling POST request
+[debug] [2020-02-11T05:40:38.493Z] [runtime-status] [17252] Ephemeral server survived.
+[info] i  functions: Finished "getMatchingVehicles" in ~1s
+[debug] [2020-02-11T05:40:39.062Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: IDLE
+[debug] [2020-02-11T05:40:39.064Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-11T05:42:07.001Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-11T05:42:07.003Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-11T05:42:07.003Z] Accepted request OPTIONS /which-ev-for-me/us-central1/getMatchingVehicles --> getMatchingVehicles
+[debug] [2020-02-11T05:42:07.003Z] [worker-pool] submitWork(triggerId=getMatchingVehicles)
+[debug] [2020-02-11T05:42:07.004Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:42:07.005Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: BUSY
+[debug] [2020-02-11T05:42:07.006Z] [runtime-status] [17252] Trigger "getMatchingVehicles" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getMatchingVehicles"
+[debug] [2020-02-11T05:42:07.007Z] [runtime-status] [17252] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getMatchingVehicles","entryPoint":"getMatchingVehicles"}
+[debug] [2020-02-11T05:42:07.007Z] [runtime-status] [17252] Running getMatchingVehicles in mode HTTPS
+[debug] [2020-02-11T05:42:07.008Z] [runtime-status] [17252] Attempting to listen to socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:42:07.013Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-11T05:42:07.017Z] [runtime-status] [17252] Ephemeral server handling OPTIONS request
+[debug] [2020-02-11T05:42:07.019Z] [runtime-status] [17252] Ephemeral server survived.
+[info] i  functions: Finished "getMatchingVehicles" in ~1s
+[debug] [2020-02-11T05:42:07.020Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: IDLE
+[debug] [2020-02-11T05:42:07.021Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-11T05:42:07.023Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-11T05:42:07.024Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-11T05:42:07.025Z] Accepted request POST /which-ev-for-me/us-central1/getMatchingVehicles --> getMatchingVehicles
+[debug] [2020-02-11T05:42:07.025Z] [worker-pool] submitWork(triggerId=getMatchingVehicles)
+[debug] [2020-02-11T05:42:07.026Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:42:07.027Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: BUSY
+[debug] [2020-02-11T05:42:07.030Z] [runtime-status] [17252] Trigger "getMatchingVehicles" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getMatchingVehicles"
+[debug] [2020-02-11T05:42:07.031Z] [runtime-status] [17252] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getMatchingVehicles","entryPoint":"getMatchingVehicles"}
+[debug] [2020-02-11T05:42:07.031Z] [runtime-status] [17252] Running getMatchingVehicles in mode HTTPS
+[debug] [2020-02-11T05:42:07.032Z] [runtime-status] [17252] Attempting to listen to socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:42:07.034Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-11T05:42:07.040Z] [runtime-status] [17252] Ephemeral server handling POST request
+[debug] [2020-02-11T05:42:07.042Z] [runtime-status] [17252] Ephemeral server survived.
+[info] i  functions: Finished "getMatchingVehicles" in ~1s
+[debug] [2020-02-11T05:42:07.701Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: IDLE
+[debug] [2020-02-11T05:42:07.701Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-11T05:44:25.415Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-11T05:44:25.416Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-11T05:44:25.416Z] Accepted request OPTIONS /which-ev-for-me/us-central1/getMatchingVehicles --> getMatchingVehicles
+[debug] [2020-02-11T05:44:25.416Z] [worker-pool] submitWork(triggerId=getMatchingVehicles)
+[debug] [2020-02-11T05:44:25.416Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:44:25.416Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: BUSY
+[debug] [2020-02-11T05:44:25.417Z] [runtime-status] [17252] Trigger "getMatchingVehicles" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getMatchingVehicles"
+[debug] [2020-02-11T05:44:25.418Z] [runtime-status] [17252] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getMatchingVehicles","entryPoint":"getMatchingVehicles"}
+[debug] [2020-02-11T05:44:25.418Z] [runtime-status] [17252] Running getMatchingVehicles in mode HTTPS
+[debug] [2020-02-11T05:44:25.419Z] [runtime-status] [17252] Attempting to listen to socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:44:25.424Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-11T05:44:25.429Z] [runtime-status] [17252] Ephemeral server handling OPTIONS request
+[debug] [2020-02-11T05:44:25.431Z] [runtime-status] [17252] Ephemeral server survived.
+[info] i  functions: Finished "getMatchingVehicles" in ~1s
+[debug] [2020-02-11T05:44:25.433Z] [work-queue] {"queueLength":1,"workRunningCount":1}
+[debug] [2020-02-11T05:44:25.433Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-02-11T05:44:25.433Z] Accepted request POST /which-ev-for-me/us-central1/getMatchingVehicles --> getMatchingVehicles
+[debug] [2020-02-11T05:44:25.433Z] [worker-pool] submitWork(triggerId=getMatchingVehicles)
+[debug] [2020-02-11T05:44:25.434Z] [worker-getMatchingVehicles-a11d6d11-fc4a-4b06-82fb-eed2ccd0f91b]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\3360
+[debug] [2020-02-11T05:44:25.434Z] [worker-getMatchingVehicles-a11d6d11-fc4a-4b06-82fb-eed2ccd0f91b]: BUSY
+[debug] [2020-02-11T05:44:25.434Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: IDLE
+[debug] [2020-02-11T05:44:25.435Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-11T05:44:25.435Z] [runtime-status] [3360] Trigger "getMatchingVehicles" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getMatchingVehicles"
+[debug] [2020-02-11T05:44:25.436Z] [runtime-status] [3360] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getMatchingVehicles","entryPoint":"getMatchingVehicles"}
+[debug] [2020-02-11T05:44:25.436Z] [runtime-status] [3360] Running getMatchingVehicles in mode HTTPS
+[debug] [2020-02-11T05:44:25.437Z] [runtime-status] [3360] Attempting to listen to socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\3360
+[debug] [2020-02-11T05:44:25.440Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-11T05:44:25.446Z] [runtime-status] [3360] Ephemeral server handling POST request
+[debug] [2020-02-11T05:44:25.448Z] [runtime-status] [3360] Ephemeral server survived.
+[info] i  functions: Finished "getMatchingVehicles" in ~1s
+[debug] [2020-02-11T05:44:25.959Z] [worker-getMatchingVehicles-a11d6d11-fc4a-4b06-82fb-eed2ccd0f91b]: IDLE
+[debug] [2020-02-11T05:44:25.959Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-11T05:45:48.996Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-11T05:45:48.997Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-11T05:45:48.997Z] Accepted request OPTIONS /which-ev-for-me/us-central1/getMatchingVehicles --> getMatchingVehicles
+[debug] [2020-02-11T05:45:48.997Z] [worker-pool] submitWork(triggerId=getMatchingVehicles)
+[debug] [2020-02-11T05:45:48.997Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:45:48.998Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: BUSY
+[debug] [2020-02-11T05:45:48.999Z] [runtime-status] [17252] Trigger "getMatchingVehicles" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getMatchingVehicles"
+[debug] [2020-02-11T05:45:49.001Z] [runtime-status] [17252] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getMatchingVehicles","entryPoint":"getMatchingVehicles"}
+[debug] [2020-02-11T05:45:49.001Z] [runtime-status] [17252] Running getMatchingVehicles in mode HTTPS
+[debug] [2020-02-11T05:45:49.002Z] [runtime-status] [17252] Attempting to listen to socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:45:49.006Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-11T05:45:49.011Z] [runtime-status] [17252] Ephemeral server handling OPTIONS request
+[debug] [2020-02-11T05:45:49.012Z] [runtime-status] [17252] Ephemeral server survived.
+[info] i  functions: Finished "getMatchingVehicles" in ~1s
+[debug] [2020-02-11T05:45:49.013Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: IDLE
+[debug] [2020-02-11T05:45:49.013Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-11T05:45:49.017Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-11T05:45:49.018Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-11T05:45:49.018Z] Accepted request POST /which-ev-for-me/us-central1/getMatchingVehicles --> getMatchingVehicles
+[debug] [2020-02-11T05:45:49.018Z] [worker-pool] submitWork(triggerId=getMatchingVehicles)
+[debug] [2020-02-11T05:45:49.019Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:45:49.019Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: BUSY
+[debug] [2020-02-11T05:45:49.024Z] [runtime-status] [17252] Trigger "getMatchingVehicles" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getMatchingVehicles"
+[debug] [2020-02-11T05:45:49.024Z] [runtime-status] [17252] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getMatchingVehicles","entryPoint":"getMatchingVehicles"}
+[debug] [2020-02-11T05:45:49.025Z] [runtime-status] [17252] Running getMatchingVehicles in mode HTTPS
+[debug] [2020-02-11T05:45:49.025Z] [runtime-status] [17252] Attempting to listen to socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:45:49.028Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-11T05:45:49.036Z] [runtime-status] [17252] Ephemeral server handling POST request
+[debug] [2020-02-11T05:45:49.039Z] [runtime-status] [17252] Ephemeral server survived.
+[info] i  functions: Finished "getMatchingVehicles" in ~1s
+[debug] [2020-02-11T05:45:50.725Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: IDLE
+[debug] [2020-02-11T05:45:50.725Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-11T05:47:57.551Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-11T05:47:57.551Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-11T05:47:57.551Z] Accepted request OPTIONS /which-ev-for-me/us-central1/getMatchingVehicles --> getMatchingVehicles
+[debug] [2020-02-11T05:47:57.552Z] [worker-pool] submitWork(triggerId=getMatchingVehicles)
+[debug] [2020-02-11T05:47:57.552Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:47:57.552Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: BUSY
+[debug] [2020-02-11T05:47:57.553Z] [runtime-status] [17252] Trigger "getMatchingVehicles" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getMatchingVehicles"
+[debug] [2020-02-11T05:47:57.553Z] [runtime-status] [17252] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getMatchingVehicles","entryPoint":"getMatchingVehicles"}
+[debug] [2020-02-11T05:47:57.554Z] [runtime-status] [17252] Running getMatchingVehicles in mode HTTPS
+[debug] [2020-02-11T05:47:57.554Z] [runtime-status] [17252] Attempting to listen to socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:47:57.557Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-11T05:47:57.561Z] [runtime-status] [17252] Ephemeral server handling OPTIONS request
+[debug] [2020-02-11T05:47:57.563Z] [runtime-status] [17252] Ephemeral server survived.
+[info] i  functions: Finished "getMatchingVehicles" in ~1s
+[debug] [2020-02-11T05:47:57.564Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: IDLE
+[debug] [2020-02-11T05:47:57.565Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-11T05:47:57.566Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-11T05:47:57.566Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-11T05:47:57.566Z] Accepted request POST /which-ev-for-me/us-central1/getMatchingVehicles --> getMatchingVehicles
+[debug] [2020-02-11T05:47:57.566Z] [worker-pool] submitWork(triggerId=getMatchingVehicles)
+[debug] [2020-02-11T05:47:57.566Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:47:57.566Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: BUSY
+[debug] [2020-02-11T05:47:57.575Z] [runtime-status] [17252] Trigger "getMatchingVehicles" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getMatchingVehicles"
+[debug] [2020-02-11T05:47:57.576Z] [runtime-status] [17252] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getMatchingVehicles","entryPoint":"getMatchingVehicles"}
+[debug] [2020-02-11T05:47:57.576Z] [runtime-status] [17252] Running getMatchingVehicles in mode HTTPS
+[debug] [2020-02-11T05:47:57.577Z] [runtime-status] [17252] Attempting to listen to socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:47:57.580Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-11T05:47:57.585Z] [runtime-status] [17252] Ephemeral server handling POST request
+[debug] [2020-02-11T05:47:57.587Z] [runtime-status] [17252] Ephemeral server survived.
+[info] i  functions: Finished "getMatchingVehicles" in ~2s
+[debug] [2020-02-11T05:48:00.218Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: IDLE
+[debug] [2020-02-11T05:48:00.218Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-11T05:58:06.626Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-11T05:58:06.626Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-11T05:58:06.626Z] Accepted request OPTIONS /which-ev-for-me/us-central1/getMatchingVehicles --> getMatchingVehicles
+[debug] [2020-02-11T05:58:06.626Z] [worker-pool] submitWork(triggerId=getMatchingVehicles)
+[debug] [2020-02-11T05:58:06.627Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:58:06.627Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: BUSY
+[debug] [2020-02-11T05:58:06.628Z] [runtime-status] [17252] Trigger "getMatchingVehicles" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getMatchingVehicles"
+[debug] [2020-02-11T05:58:06.629Z] [runtime-status] [17252] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getMatchingVehicles","entryPoint":"getMatchingVehicles"}
+[debug] [2020-02-11T05:58:06.629Z] [runtime-status] [17252] Running getMatchingVehicles in mode HTTPS
+[debug] [2020-02-11T05:58:06.630Z] [runtime-status] [17252] Attempting to listen to socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:58:06.633Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-11T05:58:06.636Z] [runtime-status] [17252] Ephemeral server handling OPTIONS request
+[debug] [2020-02-11T05:58:06.638Z] [runtime-status] [17252] Ephemeral server survived.
+[info] i  functions: Finished "getMatchingVehicles" in ~1s
+[debug] [2020-02-11T05:58:06.639Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: IDLE
+[debug] [2020-02-11T05:58:06.639Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-11T05:58:06.640Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-11T05:58:06.641Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-11T05:58:06.641Z] Accepted request POST /which-ev-for-me/us-central1/getMatchingVehicles --> getMatchingVehicles
+[debug] [2020-02-11T05:58:06.641Z] [worker-pool] submitWork(triggerId=getMatchingVehicles)
+[debug] [2020-02-11T05:58:06.641Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:58:06.641Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: BUSY
+[debug] [2020-02-11T05:58:06.648Z] [runtime-status] [17252] Trigger "getMatchingVehicles" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getMatchingVehicles"
+[debug] [2020-02-11T05:58:06.649Z] [runtime-status] [17252] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getMatchingVehicles","entryPoint":"getMatchingVehicles"}
+[debug] [2020-02-11T05:58:06.650Z] [runtime-status] [17252] Running getMatchingVehicles in mode HTTPS
+[debug] [2020-02-11T05:58:06.650Z] [runtime-status] [17252] Attempting to listen to socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:58:06.653Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-11T05:58:06.657Z] [runtime-status] [17252] Ephemeral server handling POST request
+[debug] [2020-02-11T05:58:06.658Z] [runtime-status] [17252] Ephemeral server survived.
+[info] i  functions: Finished "getMatchingVehicles" in ~3s
+[debug] [2020-02-11T05:58:10.562Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: IDLE
+[debug] [2020-02-11T05:58:10.562Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-11T05:58:57.658Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-11T05:58:57.658Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-11T05:58:57.658Z] Accepted request OPTIONS /which-ev-for-me/us-central1/getMatchingVehicles --> getMatchingVehicles
+[debug] [2020-02-11T05:58:57.658Z] [worker-pool] submitWork(triggerId=getMatchingVehicles)
+[debug] [2020-02-11T05:58:57.659Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:58:57.659Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: BUSY
+[debug] [2020-02-11T05:58:57.660Z] [runtime-status] [17252] Trigger "getMatchingVehicles" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getMatchingVehicles"
+[debug] [2020-02-11T05:58:57.661Z] [runtime-status] [17252] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getMatchingVehicles","entryPoint":"getMatchingVehicles"}
+[debug] [2020-02-11T05:58:57.661Z] [runtime-status] [17252] Running getMatchingVehicles in mode HTTPS
+[debug] [2020-02-11T05:58:57.661Z] [runtime-status] [17252] Attempting to listen to socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:58:57.664Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-11T05:58:57.668Z] [runtime-status] [17252] Ephemeral server handling OPTIONS request
+[debug] [2020-02-11T05:58:57.670Z] [runtime-status] [17252] Ephemeral server survived.
+[info] i  functions: Finished "getMatchingVehicles" in ~1s
+[debug] [2020-02-11T05:58:57.671Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: IDLE
+[debug] [2020-02-11T05:58:57.671Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-11T05:58:57.671Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-11T05:58:57.672Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-11T05:58:57.672Z] Accepted request POST /which-ev-for-me/us-central1/getMatchingVehicles --> getMatchingVehicles
+[debug] [2020-02-11T05:58:57.672Z] [worker-pool] submitWork(triggerId=getMatchingVehicles)
+[debug] [2020-02-11T05:58:57.672Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: Assigning socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:58:57.672Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: BUSY
+[debug] [2020-02-11T05:58:57.682Z] [runtime-status] [17252] Trigger "getMatchingVehicles" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "getMatchingVehicles"
+[debug] [2020-02-11T05:58:57.684Z] [runtime-status] [17252] triggerDefinition {"httpsTrigger":{},"labels":{"deployment-callable":"true"},"name":"getMatchingVehicles","entryPoint":"getMatchingVehicles"}
+[debug] [2020-02-11T05:58:57.684Z] [runtime-status] [17252] Running getMatchingVehicles in mode HTTPS
+[debug] [2020-02-11T05:58:57.685Z] [runtime-status] [17252] Attempting to listen to socketPath: \\?\pipe\C:\Users\olear\github\ev-for-me\functions\17252
+[debug] [2020-02-11T05:58:57.688Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-11T05:58:57.692Z] [runtime-status] [17252] Ephemeral server handling POST request
+[debug] [2020-02-11T05:58:57.693Z] [runtime-status] [17252] Ephemeral server survived.
+[info] i  functions: Finished "getMatchingVehicles" in ~1s
+[debug] [2020-02-11T05:58:58.123Z] [worker-getMatchingVehicles-72261662-2545-4676-9018-9eadef0242e8]: IDLE
+[debug] [2020-02-11T05:58:58.124Z] [work-queue] {"queueLength":0,"workRunningCount":0}

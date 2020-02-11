@@ -70,6 +70,18 @@ const VerticalLinearStepper = ({ addUserInput }) => {
     });
   };
 
+  // should I move this into the autocomplete component?
+  const realizeLocation = location => ({
+    formatted_address: location.formatted_address,
+    geometry: {
+      location: {
+        lat: location.geometry.location.lat(),
+        lng: location.geometry.location.lng()
+      }
+    },
+    name: location.name
+  });
+
   return (
     <div className={classes.root}>
       <Stepper activeStep={activeStep} orientation="vertical">
@@ -81,7 +93,10 @@ const VerticalLinearStepper = ({ addUserInput }) => {
                 className={classes.formElement}
                 label={"Home"}
                 onPlaceSelected={location =>
-                  setHome(prevState => ({ ...prevState, location }))
+                  setHome(prevState => ({
+                    ...prevState,
+                    location: realizeLocation(location)
+                  }))
                 }
                 googleApiKey={"AIzaSyA26CwIAVe2RnPbj6C5qEQCac7I6cgsrNU"}
               />
@@ -124,7 +139,10 @@ const VerticalLinearStepper = ({ addUserInput }) => {
               <PlacesAutocomplete
                 name="Work"
                 onPlaceSelected={location =>
-                  setWork(prevState => ({ ...prevState, location }))
+                  setWork(prevState => ({
+                    ...prevState,
+                    location: realizeLocation(location)
+                  }))
                 }
                 googleApiKey={"AIzaSyA26CwIAVe2RnPbj6C5qEQCac7I6cgsrNU"}
               />
@@ -163,7 +181,9 @@ const VerticalLinearStepper = ({ addUserInput }) => {
           </StepContent>
         </Step>
         <Step>
-          <StepLabel>How many people do you need to be able to drive?</StepLabel>
+          <StepLabel>
+            How many people do you need to be able to drive?
+          </StepLabel>
           <StepContent>
             <FormControl component="fieldset" className={classes.formControl}>
               <RadioGroup
